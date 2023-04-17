@@ -5,11 +5,12 @@ class Solution {
         // System.out.println(max);
         List<Boolean> a= new ArrayList<>();
         for(int i=0; i< candies.length; i++){
-            if(candies[i]+ extraCandies >= max){
-                a.add(true);
-            }else{
-                a.add(false);
-            }
+            a.add(candies[i]+ extraCandies >= max);
+            // if(candies[i]+ extraCandies >= max){
+            //     a.add(true);
+            // }else{
+            //     a.add(false);
+            // }
         }
         return a;
     }
