@@ -19,6 +19,7 @@ class Solution {
             x= obj.x;
             y= obj.y;
             d= obj.dist;
+            // System.out.println(x+" "+y+" "+d);
 
             if(x== n-1 && y== n-1){
                 return d;
@@ -33,7 +34,6 @@ class Solution {
                     grid[nx][ny]= -1;
                 }
             }
-
         }
         return -1;
 
