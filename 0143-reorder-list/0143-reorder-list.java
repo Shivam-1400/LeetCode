@@ -24,6 +24,6 @@ class Solution {
                 cur=cur.next;
             }
         }
-        cur.next=null; //to break the cycle lat element may be have bond with another element 
+        cur.next=null;
     }
 }
